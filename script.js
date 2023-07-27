@@ -6,6 +6,10 @@ var backgroundMusic = document.getElementById("background-music");
 var jumpSound = document.getElementById("jump-sound");
 var startBtn = document.getElementById("start-btn");
 
+var marioJumping = false; // Declare marioJumping as a global variable
+var gameContainerWidth = document.getElementById("game-container").offsetWidth;
+var marioPosition = 50;
+
 startBtn.addEventListener("click", function () {
   // Start the game here
   backgroundMusic.play();
