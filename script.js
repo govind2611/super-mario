@@ -29,7 +29,7 @@ function startGame() {
     if (!marioJumping) {
       marioJumping = true;
       jumpSound.play(); // play jump sound
-g
+
       var startPos = 32;
       var endPos = 150;
       var speed = 5;
